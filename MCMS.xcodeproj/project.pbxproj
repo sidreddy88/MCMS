@@ -21,6 +21,8 @@
 		253138641885D53C001D57FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253138461885D53C001D57FE /* UIKit.framework */; };
 		2531386C1885D53C001D57FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2531386A1885D53C001D57FE /* InfoPlist.strings */; };
 		2531386E1885D53C001D57FE /* MythicalCreaturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2531386D1885D53C001D57FE /* MythicalCreaturesTests.m */; };
+		253138791885DFEA001D57FE /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253138781885DFE9001D57FE /* CreatureViewController.m */; };
+		2531387C1885E3A5001D57FE /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 2531387B1885E3A5001D57FE /* MagicalCreature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +36,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2531383F1885D53C001D57FE /* MythicalCreatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MythicalCreatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2531383F1885D53C001D57FE /* MCMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		253138421885D53C001D57FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		253138441885D53C001D57FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		253138461885D53C001D57FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2531384A1885D53C001D57FE /* MythicalCreatures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MythicalCreatures-Info.plist"; sourceTree = "<group>"; };
+		2531384A1885D53C001D57FE /* MCMS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCMS-Info.plist"; sourceTree = "<group>"; };
 		2531384C1885D53C001D57FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2531384E1885D53C001D57FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		253138501885D53C001D57FE /* MythicalCreatures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MythicalCreatures-Prefix.pch"; sourceTree = "<group>"; };
+		253138501885D53C001D57FE /* MCMS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCMS-Prefix.pch"; sourceTree = "<group>"; };
 		253138511885D53C001D57FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		253138521885D53C001D57FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		253138551885D53C001D57FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		253138571885D53C001D57FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		253138581885D53C001D57FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2531385A1885D53C001D57FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		253138601885D53C001D57FE /* MythicalCreaturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MythicalCreaturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		253138601885D53C001D57FE /* MCMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		253138611885D53C001D57FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		253138691885D53C001D57FE /* MythicalCreaturesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MythicalCreaturesTests-Info.plist"; sourceTree = "<group>"; };
+		253138691885D53C001D57FE /* MCMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCMSTests-Info.plist"; sourceTree = "<group>"; };
 		2531386B1885D53C001D57FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2531386D1885D53C001D57FE /* MythicalCreaturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MythicalCreaturesTests.m; sourceTree = "<group>"; };
+		253138771885DFE9001D57FE /* CreatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatureViewController.h; sourceTree = "<group>"; };
+		253138781885DFE9001D57FE /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureViewController.m; sourceTree = "<group>"; };
+		2531387A1885E3A5001D57FE /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		2531387B1885E3A5001D57FE /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 		253138361885D53C001D57FE = {
 			isa = PBXGroup;
 			children = (
+				253138771885DFE9001D57FE /* CreatureViewController.h */,
+				253138781885DFE9001D57FE /* CreatureViewController.m */,
 				253138481885D53C001D57FE /* MythicalCreatures */,
 				253138671885D53C001D57FE /* MythicalCreaturesTests */,
 				253138411885D53C001D57FE /* Frameworks */,
@@ -92,8 +100,8 @@
 		253138401885D53C001D57FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2531383F1885D53C001D57FE /* MythicalCreatures.app */,
-				253138601885D53C001D57FE /* MythicalCreaturesTests.xctest */,
+				2531383F1885D53C001D57FE /* MCMS.app */,
+				253138601885D53C001D57FE /* MCMSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +123,8 @@
 				253138511885D53C001D57FE /* AppDelegate.h */,
 				253138521885D53C001D57FE /* AppDelegate.m */,
 				253138541885D53C001D57FE /* Main.storyboard */,
+				2531387A1885E3A5001D57FE /* MagicalCreature.h */,
+				2531387B1885E3A5001D57FE /* MagicalCreature.m */,
 				253138571885D53C001D57FE /* ViewController.h */,
 				253138581885D53C001D57FE /* ViewController.m */,
 				2531385A1885D53C001D57FE /* Images.xcassets */,
@@ -126,10 +136,10 @@
 		253138491885D53C001D57FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2531384A1885D53C001D57FE /* MythicalCreatures-Info.plist */,
+				2531384A1885D53C001D57FE /* MCMS-Info.plist */,
 				2531384B1885D53C001D57FE /* InfoPlist.strings */,
 				2531384E1885D53C001D57FE /* main.m */,
-				253138501885D53C001D57FE /* MythicalCreatures-Prefix.pch */,
+				253138501885D53C001D57FE /* MCMS-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +156,7 @@
 		253138681885D53C001D57FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				253138691885D53C001D57FE /* MythicalCreaturesTests-Info.plist */,
+				253138691885D53C001D57FE /* MCMSTests-Info.plist */,
 				2531386A1885D53C001D57FE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2531383E1885D53C001D57FE /* MythicalCreatures */ = {
+		2531383E1885D53C001D57FE /* MCMS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 253138711885D53C001D57FE /* Build configuration list for PBXNativeTarget "MythicalCreatures" */;
+			buildConfigurationList = 253138711885D53C001D57FE /* Build configuration list for PBXNativeTarget "MCMS" */;
 			buildPhases = (
 				2531383B1885D53C001D57FE /* Sources */,
 				2531383C1885D53C001D57FE /* Frameworks */,
@@ -167,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = MythicalCreatures;
+			name = MCMS;
 			productName = MythicalCreatures;
-			productReference = 2531383F1885D53C001D57FE /* MythicalCreatures.app */;
+			productReference = 2531383F1885D53C001D57FE /* MCMS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2531385F1885D53C001D57FE /* MythicalCreaturesTests */ = {
+		2531385F1885D53C001D57FE /* MCMSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 253138741885D53C001D57FE /* Build configuration list for PBXNativeTarget "MythicalCreaturesTests" */;
+			buildConfigurationList = 253138741885D53C001D57FE /* Build configuration list for PBXNativeTarget "MCMSTests" */;
 			buildPhases = (
 				2531385C1885D53C001D57FE /* Sources */,
 				2531385D1885D53C001D57FE /* Frameworks */,
@@ -185,9 +195,9 @@
 			dependencies = (
 				253138661885D53C001D57FE /* PBXTargetDependency */,
 			);
-			name = MythicalCreaturesTests;
+			name = MCMSTests;
 			productName = MythicalCreaturesTests;
-			productReference = 253138601885D53C001D57FE /* MythicalCreaturesTests.xctest */;
+			productReference = 253138601885D53C001D57FE /* MCMSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2531383A1885D53C001D57FE /* Build configuration list for PBXProject "MythicalCreatures" */;
+			buildConfigurationList = 2531383A1885D53C001D57FE /* Build configuration list for PBXProject "MCMS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +227,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2531383E1885D53C001D57FE /* MythicalCreatures */,
-				2531385F1885D53C001D57FE /* MythicalCreaturesTests */,
+				2531383E1885D53C001D57FE /* MCMS */,
+				2531385F1885D53C001D57FE /* MCMSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				253138591885D53C001D57FE /* ViewController.m in Sources */,
+				253138791885DFEA001D57FE /* CreatureViewController.m in Sources */,
+				2531387C1885E3A5001D57FE /* MagicalCreature.m in Sources */,
 				253138531885D53C001D57FE /* AppDelegate.m in Sources */,
 				2531384F1885D53C001D57FE /* main.m in Sources */,
 			);
@@ -268,7 +280,7 @@
 /* Begin PBXTargetDependency section */
 		253138661885D53C001D57FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2531383E1885D53C001D57FE /* MythicalCreatures */;
+			target = 2531383E1885D53C001D57FE /* MCMS */;
 			targetProxy = 253138651885D53C001D57FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -379,9 +391,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MythicalCreatures/MythicalCreatures-Prefix.pch";
-				INFOPLIST_FILE = "MythicalCreatures/MythicalCreatures-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MythicalCreatures/MCMS-Prefix.pch";
+				INFOPLIST_FILE = "MythicalCreatures/MCMS-Info.plist";
+				PRODUCT_NAME = MCMS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,9 +404,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MythicalCreatures/MythicalCreatures-Prefix.pch";
-				INFOPLIST_FILE = "MythicalCreatures/MythicalCreatures-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MythicalCreatures/MCMS-Prefix.pch";
+				INFOPLIST_FILE = "MythicalCreatures/MCMS-Info.plist";
+				PRODUCT_NAME = MCMS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,8 +427,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "MythicalCreaturesTests/MythicalCreaturesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MythicalCreaturesTests/MCMSTests-Info.plist";
+				PRODUCT_NAME = MCMSTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -434,8 +446,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MythicalCreatures/MythicalCreatures-Prefix.pch";
-				INFOPLIST_FILE = "MythicalCreaturesTests/MythicalCreaturesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MythicalCreaturesTests/MCMSTests-Info.plist";
+				PRODUCT_NAME = MCMSTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,7 +456,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2531383A1885D53C001D57FE /* Build configuration list for PBXProject "MythicalCreatures" */ = {
+		2531383A1885D53C001D57FE /* Build configuration list for PBXProject "MCMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2531386F1885D53C001D57FE /* Debug */,
@@ -453,7 +465,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		253138711885D53C001D57FE /* Build configuration list for PBXNativeTarget "MythicalCreatures" */ = {
+		253138711885D53C001D57FE /* Build configuration list for PBXNativeTarget "MCMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				253138721885D53C001D57FE /* Debug */,
@@ -461,7 +473,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		253138741885D53C001D57FE /* Build configuration list for PBXNativeTarget "MythicalCreaturesTests" */ = {
+		253138741885D53C001D57FE /* Build configuration list for PBXNativeTarget "MCMSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				253138751885D53C001D57FE /* Debug */,

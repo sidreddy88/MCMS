@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MythicalCreatures.xcodeproj">
+      location = "self:MCMS.xcodeproj">
    </FileRef>
 </Workspace>

@@ -10,6 +10,8 @@
 
 @implementation MagicalCreature
 
-@synthesize name;
+@synthesize name, description, image;
+
+
 
 @end

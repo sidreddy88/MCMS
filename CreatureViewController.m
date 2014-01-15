@@ -12,17 +12,49 @@
 @interface CreatureViewController ()
 {
     
+    
+    
+
+    __weak IBOutlet UITextField *nameTextField;
+    
+   
+    __weak IBOutlet UITextView *labelShowingDescription;
+    
     __weak IBOutlet UILabel *name;
+    
+    __weak IBOutlet UIButton *Save;
+//    UIImage *image;
 }
 
 
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 
 @end
 
 @implementation CreatureViewController
-@synthesize creature;
+@synthesize creature, imageView;
 
+
+- (IBAction)onSaveButtonPressed:(id)sender {
+    
+    creature.name = nameTextField.text;
+    name.alpha = 1;
+    name.text = creature.name;
+    nameTextField.alpha = 0;
+    
+}
+
+- (IBAction)onEditButtonPressed:(id)sender {
+    name.alpha = 0;
+    nameTextField.alpha = 1;
+    nameTextField.text = creature.name;
+    labelShowingDescription.text = creature.description;
+    labelShowingDescription.alpha = 1;
+    
+    
+  
+}
 
 
 
@@ -30,6 +62,12 @@
 {
     [super viewDidLoad];
 	name.text = creature.name;
+    nameTextField.alpha = 0;
+    labelShowingDescription.alpha = 0;
+//    imageView = [[UIImageView alloc]initWithImage:creature.image];
+    imageView.image = creature.image;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

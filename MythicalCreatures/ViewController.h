@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (readonly)NSMutableArray *creatures;
+
+
 @end

@@ -23,10 +23,10 @@
 		2531386E1885D53C001D57FE /* MythicalCreaturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2531386D1885D53C001D57FE /* MythicalCreaturesTests.m */; };
 		253138791885DFEA001D57FE /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253138781885DFE9001D57FE /* CreatureViewController.m */; };
 		2531387C1885E3A5001D57FE /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 2531387B1885E3A5001D57FE /* MagicalCreature.m */; };
-		D13C7D251885F9FB00B83A3D /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13C7D241885F9FB00B83A3D /* CheckMate.framework */; };
-		D13C7D2B18863F2200B83A3D /* Centaur in Resources */ = {isa = PBXBuildFile; fileRef = D13C7D2A18863F2200B83A3D /* Centaur */; };
-		D13C7D2F18863F3100B83A3D /* cerberus in Resources */ = {isa = PBXBuildFile; fileRef = D13C7D2E18863F3100B83A3D /* cerberus */; };
-		D13C7D3118863F4C00B83A3D /* unicorn in Resources */ = {isa = PBXBuildFile; fileRef = D13C7D3018863F4C00B83A3D /* unicorn */; };
+		D100BD3E18CE81E600154875 /* unicorn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D100BD3D18CE81E600154875 /* unicorn.jpg */; };
+		D100BD4018CE81EF00154875 /* cerberus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D100BD3F18CE81EF00154875 /* cerberus.jpeg */; };
+		D100BD4218CE81FD00154875 /* centaur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D100BD4118CE81FD00154875 /* centaur.jpg */; };
+		D13C7D34188647A300B83A3D /* BattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13C7D33188647A300B83A3D /* BattleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +63,11 @@
 		253138781885DFE9001D57FE /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureViewController.m; sourceTree = "<group>"; };
 		2531387A1885E3A5001D57FE /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
 		2531387B1885E3A5001D57FE /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
-		D13C7D241885F9FB00B83A3D /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
-		D13C7D2A18863F2200B83A3D /* Centaur */ = {isa = PBXFileReference; lastKnownFileType = file; name = Centaur; path = ../../../Centaur; sourceTree = "<group>"; };
-		D13C7D2E18863F3100B83A3D /* cerberus */ = {isa = PBXFileReference; lastKnownFileType = file; name = cerberus; path = ../../../cerberus; sourceTree = "<group>"; };
-		D13C7D3018863F4C00B83A3D /* unicorn */ = {isa = PBXFileReference; lastKnownFileType = file; name = unicorn; path = ../../../unicorn; sourceTree = "<group>"; };
+		D100BD3D18CE81E600154875 /* unicorn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unicorn.jpg; sourceTree = "<group>"; };
+		D100BD3F18CE81EF00154875 /* cerberus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cerberus.jpeg; sourceTree = "<group>"; };
+		D100BD4118CE81FD00154875 /* centaur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centaur.jpg; sourceTree = "<group>"; };
+		D13C7D32188647A300B83A3D /* BattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleViewController.h; sourceTree = "<group>"; };
+		D13C7D33188647A300B83A3D /* BattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D13C7D251885F9FB00B83A3D /* CheckMate.framework in Frameworks */,
 				253138451885D53C001D57FE /* CoreGraphics.framework in Frameworks */,
 				253138471885D53C001D57FE /* UIKit.framework in Frameworks */,
 				253138431885D53C001D57FE /* Foundation.framework in Frameworks */,
@@ -118,7 +118,6 @@
 		253138411885D53C001D57FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D13C7D241885F9FB00B83A3D /* CheckMate.framework */,
 				253138421885D53C001D57FE /* Foundation.framework */,
 				253138441885D53C001D57FE /* CoreGraphics.framework */,
 				253138461885D53C001D57FE /* UIKit.framework */,
@@ -132,10 +131,12 @@
 			children = (
 				253138511885D53C001D57FE /* AppDelegate.h */,
 				253138521885D53C001D57FE /* AppDelegate.m */,
-				D13C7D3018863F4C00B83A3D /* unicorn */,
 				253138541885D53C001D57FE /* Main.storyboard */,
-				D13C7D2E18863F3100B83A3D /* cerberus */,
-				D13C7D2A18863F2200B83A3D /* Centaur */,
+				D13C7D32188647A300B83A3D /* BattleViewController.h */,
+				D13C7D33188647A300B83A3D /* BattleViewController.m */,
+				D100BD4118CE81FD00154875 /* centaur.jpg */,
+				D100BD3D18CE81E600154875 /* unicorn.jpg */,
+				D100BD3F18CE81EF00154875 /* cerberus.jpeg */,
 				2531387A1885E3A5001D57FE /* MagicalCreature.h */,
 				2531387B1885E3A5001D57FE /* MagicalCreature.m */,
 				253138571885D53C001D57FE /* ViewController.h */,
@@ -254,9 +255,9 @@
 				2531385B1885D53C001D57FE /* Images.xcassets in Resources */,
 				2531384D1885D53C001D57FE /* InfoPlist.strings in Resources */,
 				253138561885D53C001D57FE /* Main.storyboard in Resources */,
-				D13C7D2B18863F2200B83A3D /* Centaur in Resources */,
-				D13C7D3118863F4C00B83A3D /* unicorn in Resources */,
-				D13C7D2F18863F3100B83A3D /* cerberus in Resources */,
+				D100BD4018CE81EF00154875 /* cerberus.jpeg in Resources */,
+				D100BD3E18CE81E600154875 /* unicorn.jpg in Resources */,
+				D100BD4218CE81FD00154875 /* centaur.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +278,7 @@
 			files = (
 				253138591885D53C001D57FE /* ViewController.m in Sources */,
 				253138791885DFEA001D57FE /* CreatureViewController.m in Sources */,
+				D13C7D34188647A300B83A3D /* BattleViewController.m in Sources */,
 				2531387C1885E3A5001D57FE /* MagicalCreature.m in Sources */,
 				253138531885D53C001D57FE /* AppDelegate.m in Sources */,
 				2531384F1885D53C001D57FE /* main.m in Sources */,

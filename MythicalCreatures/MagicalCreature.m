@@ -10,8 +10,17 @@
 
 @implementation MagicalCreature
 
-@synthesize name, description, image;
+@synthesize name, description, image, accesories;
+/*
+- (MagicalCreature *) init {
+    self = [super init];
+    if (self) {
+//        accesories = [[NSMutableArray alloc]init];
+        
+    }
+    return self;
+}
 
-
+*/
 
 @end
